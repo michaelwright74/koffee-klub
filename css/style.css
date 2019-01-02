@@ -89,3 +89,8 @@ body {
   }
 }
 
+@media (max-width: 959px) {
+  #headingGroup p {
+  line-height: 1.25;
+  }
+} 
