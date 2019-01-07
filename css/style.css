@@ -82,6 +82,13 @@ body {
   border-color: #634832;
 }
 
+.dummy-anchor {
+  display: block;
+  height: 50px; /* header height */
+  margin-top: -50px; /* header height */
+  visibility: hidden;
+}
+
 @media (max-width: 1400px) {
   #headingGroup h1 {
     font-weight: 700;
