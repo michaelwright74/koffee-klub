@@ -149,6 +149,15 @@
   <script>
    // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+  // Close navbar after click
+    $(function() {
+    $('.navbar a').on('click', function(){ 
+        if($('.navbar-toggler').css('display') !='none'){
+            $('.navbar-toggler').trigger( "click" );
+        }
+    });
+});
   </script>
 </body>
 
